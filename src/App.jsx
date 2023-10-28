@@ -1,10 +1,14 @@
 import './App.css'
 
+import Navbar from './components/Navbar'
+import Main from './components/Main'
+
 function App() {
 
   return (
     <>
-      <h1>Hello there</h1>
+      <Navbar />
+      <Main />
     </>
   )
 }
