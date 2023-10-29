@@ -31,6 +31,10 @@ nav a {
   padding-left: 50px;
 }
 
+.extra-links-container a {
+  color: white;
+}
+
 
 .auth-links {
   display: flex;
