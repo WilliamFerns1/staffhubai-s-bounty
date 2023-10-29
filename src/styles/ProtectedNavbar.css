@@ -1,0 +1,21 @@
+.protectednavbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 15px 50px;
+  background: transparent;
+}
+
+.protectednavbar .logo-protected-page  {
+  font-size: 1.5rem;
+  font-weight: bold
+}
+
+nav {
+  display: flex;
+  gap: 30px;
+}
+
+nav a {
+  color: black;
+}

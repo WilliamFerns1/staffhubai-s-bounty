@@ -1,0 +1,55 @@
+header {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px 50px;
+  align-items: center;
+}
+
+header h1 {
+  color: white;
+  font-weight: bold;
+  font-size: 1.5rem;
+}
+
+
+nav {
+  display: flex;
+  align-items: center;
+  gap: 100px;
+  justify-content: center;
+}
+
+nav a {
+  color: white;
+  font-weight: 700;
+}
+
+.extra-links-container {
+  display: flex;
+  gap: 50px;
+  align-items: center;
+  padding-left: 50px;
+}
+
+
+.auth-links {
+  display: flex;
+  gap: 20px;
+}
+
+.sign-in-link, .sign-up-link {
+  padding: 7px 25px;
+  background: white;
+  border-radius: 5px;
+  width: fit-content;
+  color: black;
+  transition: .5s;
+}
+
+.sign-up-link {
+  background: yellow;
+}
+
+.sign-in-link:hover, .sign-up-link:hover {
+  opacity: .8;
+}

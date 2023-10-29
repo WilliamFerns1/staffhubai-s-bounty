@@ -1,10 +1,14 @@
-import { UserButton } from "@clerk/clerk-react";
+import ProtectedNavbar from "../components/ProtectedNavbar.jsx"
+
+import "../styles/ProtectedPage.css"
 
 export default function ProtectedPage() {
   return (
-    <>
-      <UserButton />
-      <h1>Protected Page</h1>
-    </>
+    <div className="protected-page-container">
+      <ProtectedNavbar />
+      <div className="protectedpage">
+        <h1>Hello</h1>
+      </div>
+    </div>
   )
 }

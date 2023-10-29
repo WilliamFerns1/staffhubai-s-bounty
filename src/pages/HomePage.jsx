@@ -1,10 +1,12 @@
 import { Link } from "react-router-dom"
+import "../styles/HomePage.css"
 
 export default function HomePage() {
   return (
-    <>
-      <h1>hello</h1>
-      <Link to="/sign-up">Get Started</Link>
-    </>
+    <div className="homepage">
+      <h1>Random line of text goes here.</h1>
+      <p></p>
+      <Link to="/records">Get Started - It's Free!</Link>
+    </div>    
   )
-}
+}  
